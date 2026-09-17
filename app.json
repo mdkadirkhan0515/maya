@@ -13,37 +13,21 @@
       "resizeMode": "contain",
       "backgroundColor": "#0B0F19"
     },
-    "assetBundlePatterns": [
-      "**/*"
+    "plugins":[
+      "expo-router"
     ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.maya.app"
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0B0F19"
       },
       "package": "com.maya.app",
-      "edgeToEdgeEnabled": true
+      "version":1
     },
-    "web": {
-      "bundler": "metro",
-      "output": "single",
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-font",
-      "expo-asset",
-      [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#0B0F19",
-          "image": "./assets/splash.png",
-          "imageWidth": 200
-        }
-      ]
-    ]
+    "extra":{
+      "eas"{
+        "projectid":""
+       }
+    }
   }
 }
