@@ -30,6 +30,8 @@
     "react-native-safe-area-context": "~5.8.0",
     "react-native-screens": "~4.11.0",
     "react-native-worklets": "0.10.0"
+    "expo-router": "~3.5.23"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
