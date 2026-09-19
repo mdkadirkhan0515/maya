@@ -8,10 +8,7 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { View, FlatList, Text, StyleSheet, TouchableOpacity, ActivityIndicator } from 'react-native';
-import Ionicons from '@expo/vector-icons/Ionicons';
-import Feather from '@expo/vector-icons/Feather';
-import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import { Feather, MaterialIcons, SimpleLineIcons, Ionicons } from '@expo/vector-icons';
 import { Colors } from '../constants/theme';
 import { LearnCard } from '../components/Card';
 import type { Chapter, Lesson, EnglishLearningBook } from '../types/bookTypes';
