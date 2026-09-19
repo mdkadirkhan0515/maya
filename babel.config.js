@@ -7,7 +7,7 @@ module.exports = function (api) {
         'module-resolver',
         {
           root: ['./'],
-          extensions: ['.ts', '.tsx', '.js', '.json'],
+          extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
           alias: {
             '@': './src',
             '@components': './src/components',
@@ -19,7 +19,7 @@ module.exports = function (api) {
           }
         }
       ],
-      'react-native-reanimated/plugin',
-    ],
+      'react-native-reanimated/plugin'
+    ]
   };
 };
