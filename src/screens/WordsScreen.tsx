@@ -8,8 +8,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, FlatList, StyleSheet, Text, ActivityIndicator } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
-import Feather from '@expo/vector-icons/Feather';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import { Feather, MaterialIcons } from '@expo/vector-icons';
 import { Colors } from '../constants/theme';
 import { InputBox } from '../components/InputBox';
 import { Card } from '../components/Card';
