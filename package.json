@@ -6,7 +6,8 @@
   "scripts": {
     "android": "expo run:android",
     "start": "expo start",
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc --noEmit",
+    "robot": "node scripts/robot-check.js"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -35,8 +36,5 @@
     "@babel/core": "^7.26.0",
     "babel-preset-expo": "~13.0.0",
     "typescript": "~5.6.3"
-  }
-  "scripts": {
-  "robot": "node scripts/robot-check.js"
   }
 }
