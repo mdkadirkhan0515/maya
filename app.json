@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "maya",
-    "slug": "maya-",
+    "slug": "fahim",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,7 +27,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "ab454fb3-459c-4b21-b9da-3c6e70ac46b8"
+        "projectId": "9c61883c-b7f0-4421-9a39-9b4d97713aa4"
       }
     }
   }
