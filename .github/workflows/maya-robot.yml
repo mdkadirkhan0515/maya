@@ -9,25 +9,22 @@ on:
 jobs:
   robot-check:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node 22
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'yarn'
 
       - name: Install dependencies
         run: |
-          yarn install || npm install --legacy-peer-deps
+          if [ -f yarn.lock ]; then yarn install --frozen-lockfile
+          elif [ -f package-lock.json ]; then npm ci
+          else npm install --legacy-peer-deps
+          fi
 
-      - name: Run Robot - Check src files & paths
-        run: |
-          npm run robot
+      - name: Run Robot Check
+        run: npm run robot
 
       - name: TypeScript Check
-        run: |
-          npx tsc --noEmit
+        run: npx tsc --noEmit
