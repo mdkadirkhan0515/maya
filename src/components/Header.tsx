@@ -6,7 +6,7 @@
 
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, StatusBar } from 'react-native';
-import Ionicons from '@expo/vector-icons/Ionicons';
+import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../constants/theme';
 
 interface HeaderProps {
