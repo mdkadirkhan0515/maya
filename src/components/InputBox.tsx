@@ -6,7 +6,7 @@
 
 import React, { useState } from 'react';
 import { View, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
-import Feather from '@expo/vector-icons/Feather';
+import { Feather } from '@expo/vector-icons';
 import { Colors } from '../constants/theme';
 
 interface InputBoxProps {
