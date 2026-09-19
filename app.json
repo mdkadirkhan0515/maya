@@ -13,7 +13,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#0B0F19"
     },
-    "plugins":[
+    "plugins": [
       "expo-router"
     ],
     "android": {
@@ -22,12 +22,12 @@
         "backgroundColor": "#0B0F19"
       },
       "package": "com.maya.app",
-      "version":1
+      "version": 1
     },
-    "extra":{
-      "eas":{
-        "projectid":"ab454fb3-459c-4b21-b9da-3c6e70ac46b8"
-       }
+    "extra": {
+      "eas": {
+        "projectId": "ab454fb3-459c-4b21-b9da-3c6e70ac46b8"
+      }
     }
   }
 }
