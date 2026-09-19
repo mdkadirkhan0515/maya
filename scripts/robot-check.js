@@ -81,3 +81,9 @@ if(pkg.main && pkg.main.includes('expo-router')){
 }
 
 console.log('\n' + (hasError ? '🔴 ROBOT FAILED: কিছু ফাইল বা path ঠিক নেই, উপরে ❌ গুলো ঠিক করো' : '🟢 ROBOT PASSED: সব src file, path, icon ঠিক আছে - EAS Build pass করবে'));
+
+if (hasError) {
+  process.exit(1); // GitHub Workflow কে Fail করাবে
+} else {
+  process.exit(0);
+}
