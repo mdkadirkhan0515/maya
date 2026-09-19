@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "maya",
-    "slug": "maya",
+    "slug": "maya-",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,7 +26,7 @@
     },
     "extra":{
       "eas"{
-        "projectid":"c2b1efab-0796-44b5-8145-18c13db8945f"
+        "projectid":"ab454fb3-459c-4b21-b9da-3c6e70ac46b8"
        }
     }
   }
