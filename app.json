@@ -22,7 +22,7 @@
         "backgroundColor": "#0B0F19"
       },
       "package": "com.maya.app",
-      "version": 1
+      "versionCode": 1
     },
     "extra": {
       "eas": {
