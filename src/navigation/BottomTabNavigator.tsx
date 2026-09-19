@@ -8,10 +8,7 @@
 
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Feather from '@expo/vector-icons/Feather';
-import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
-import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
-import Ionicons from '@expo/vector-icons/Ionicons';
+import { Feather, SimpleLineIcons, FontAwesome5, Ionicons } from '@expo/vector-icons';
 import { Colors } from '../constants/theme';
 
 import WordsScreen from '../screens/WordsScreen';
