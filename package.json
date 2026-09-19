@@ -33,8 +33,9 @@
     "react-native-worklets": "0.10.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "babel-preset-expo": "~13.0.0",
-    "typescript": "~5.6.3"
+  "@babel/core": "^7.26.0",
+  "babel-preset-expo": "~13.0.0",
+  "babel-plugin-module-resolver": "^5.0.2",
+  "typescript": "~5.6.3"
   }
 }
