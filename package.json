@@ -36,4 +36,7 @@
     "babel-preset-expo": "~13.0.0",
     "typescript": "~5.6.3"
   }
+  "scripts": {
+  "robot": "node scripts/robot-check.js"
+  }
 }
