@@ -8,11 +8,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, ScrollView, Text, StyleSheet, TouchableOpacity, TextInput, Switch, Alert, ActivityIndicator } from 'react-native';
-import Ionicons from '@expo/vector-icons/Ionicons';
-import Feather from '@expo/vector-icons/Feather';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
-import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
+import { Ionicons, Feather, MaterialIcons, FontAwesome5, SimpleLineIcons } from '@expo/vector-icons';
 import { Colors } from '../constants/theme';
 import { SettingItem } from '../components/SettingItem';
 import StorageService, { AppSettings } from '../services/storageService';
