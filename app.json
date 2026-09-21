@@ -4,7 +4,7 @@
     "slug": "fahim",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "assets/images/icon.png",
     "scheme": "fahim",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -12,34 +12,29 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.mdfahimkhan.fahim",
-      "icon": "./assets/images/icon.png"
+      "icon": "assets/images/icon.png"
     },
     "android": {
       "package": "com.mdfahimkhan.fahim",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "assets/images/adaptive-icon.png",
         "backgroundColor": "#E6F4FE"
       },
-      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "assets/images/favicon.png"
     },
     "plugins": [
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash.png",
+          "image": "assets/images/splash.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#E6F4FE",
-          "dark": {
-            "image": "./assets/images/splash.png",
-            "backgroundColor": "#121212"
-          }
+          "backgroundColor": "#E6F4FE"
         }
       ]
     ],
