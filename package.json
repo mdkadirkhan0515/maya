@@ -1,6 +1,6 @@
 {
-  "name": "my-src-folder",
-  "main": "expo-router/entry",
+  "name": "maya",
+  "main": "node_modules/expo/AppEntry.js",
   "version": "1.0.0",
   "dependencies": {
     "@expo/ui": "~57.0.19",
